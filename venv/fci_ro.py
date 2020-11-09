@@ -27,7 +27,7 @@ class Fci(unittest.TestCase):
         driver.find_element_by_id("login-username").clear()
         driver.find_element_by_id("login-username").send_keys("kajalm")
         driver.find_element_by_id("login-password").clear()
-        driver.find_element_by_id("login-password").send_keys("Dimapur@77nagaland")
+        driver.find_element_by_id("login-password").send_keys("test")
         driver.find_element_by_xpath("//button[@id='btn-login']/span").click()
         driver.find_element_by_link_text("View / Edit RO").click()
         driver.find_element_by_xpath("//table[@id='detailViewTbl']/tbody/tr/td[10]/a/span").click()
